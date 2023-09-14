@@ -5,21 +5,87 @@ body{
 header{
     background-color: #191d88;
     color: whitesmoke;
-    height: 60px;
+    height: 80px;
+    width: 1340px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-label{
-    display: block;
-    margin-bottom: 2px;
-    font-size: 12px;
+div.luas{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 900px;
+    border-top: 2px solid rgb(149, 209, 233);
+    border-bottom: 2px solid rgb(149, 209, 233);
+    border-left: 2px solid rgb(149, 209, 233);
+    border-right: 2px solid rgb(149, 209, 233);
+}
+
+div.keliling{
+    margin-left: 10px;
+    margin-top: 100px;
+    height: 800px;
+    border-top: 2px solid rgb(149, 209, 233);
+    border-bottom: 2px solid rgb(149, 209, 233);
+    border-left: 2px solid rgb(149, 209, 233);
+    border-right: 2px solid rgb(149, 209, 233);
+}
+
+p.besar{
+    font-size: 20px;
+    color: solid black;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
-    color: #1450a3;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+p.sedang{
+    color: black;
+    line-height: 130%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 10px
+}
+
+p.kecil{
+    color: black;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    background-color: #337ccf;
+    color:white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+label{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    margin-bottom: 2px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: solid black;
 }
 
 input{
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 6px;
     border: 1px solid #337ccf;
     border-radius: 4px;
@@ -49,6 +115,12 @@ button:active{
 }
 
 .luasinputsection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.kelilinginputsection{
     display: flex;
     flex-direction: column;
     margin-top: 24px;
